@@ -1,0 +1,8 @@
+class_name: AcceptanceTester
+modules:
+  enabled:
+      - Db
+      - REST:
+          url: "http://0.0.0.0"
+          depends: PhpBrowser
+          part: Json
