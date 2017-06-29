@@ -54,7 +54,7 @@ Assuming that you've cloned the api in the directory **/var/www**, you'd have th
 docker statement
 
 ```
-docker run -d -v /var/www:/var/www/html -p 80:80 acme-api
+docker run -d -v /var/www:/var/www/html -p 80:80 gitdash
 ```
 
 # Executables
