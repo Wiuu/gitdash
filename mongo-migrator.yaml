@@ -1,0 +1,29 @@
+default_environment: development
+
+path:
+    migrations: migrations
+    
+environments:
+    development:
+        dsn: mongodb://localhost
+        
+        default_database: acme
+        
+        log_database: acme
+        log_collection: migrators
+    
+    staging:
+        dsn: mongodb://localhost
+        
+        default_database: acme
+        
+        log_database: acme
+        log_collection: migrators
+    
+    production:
+        dsn: mongodb://localhost
+        
+        default_database: acme
+        
+        log_database: acme
+        log_collection: migrators
