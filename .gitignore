@@ -1,0 +1,11 @@
+vendor
+.DS_Store
+app/logs/*.log
+*~
+.idea
+app.db
+tests/_output/*
+.env
+storage/uploads/users/*
+web/teste.php
+socket/*
